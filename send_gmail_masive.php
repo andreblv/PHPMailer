@@ -22,7 +22,7 @@ try {
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'tu_correo@gmail.com';        // Cambia por tu correo
-    $mail->Password   = 'tu_contraseña_o_token';      // Cambia por tu contraseña o App Password
+    $mail->Password   = 'tu_contraseña_o_token';      // Cambia por tu contraseña 
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 587;
 
