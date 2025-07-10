@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Enviar Correos Masivos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container mt-5">
+    <h1>Enviar Correos Masivos</h1>
+    <p>Escribe el asunto y el mensaje.</p>
+
+    <form action="send_gmail_masive.php" method="post" enctype="multipart/form-data">
+
+        <div class="mb-3">
+            <label for="subject" class="form-label">Asunto:</label>
+            <input type="text" class="form-control" id="subject" name="subject" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="message" class="form-label">Mensaje:</label>
+            <textarea class="form-control" id="message" name="message" rows="6" required></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label>Adjuntar archivo:</label>
+            <input type="file" name="archivo" class="form-control" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar correos masivos</button>
+    </form>
+</body>
+
+</html>
