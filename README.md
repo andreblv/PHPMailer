@@ -2,13 +2,11 @@
 
 Este proyecto utiliza PHPMailer para enviar correos, incluyendo envío masivo desde una base de datos.
 
+## Imagen
+![img](image.png)
+
 ## Funciones
 
 - Envío de correo individual.
-- Envío masivo de correos desde una base de datos.
-
-## Por terminar
-
-- Formularios parar el envío de correos.
-- Adjuntar archivos.
-
+- Envío masivo de correos usando una base de datos.
+- Formulario para enviar los correos.
